@@ -1,12 +1,12 @@
 //document.getElementById("starter").focus();
+
 document.body.addEventListener('onload', focus());
 document.addEventListener('keydown', detectSpaceKey);
 
-function detectSpaceKey(event)
+function detectSpaceKey()
 {
-	if(event.keyCode == 13) {
 		showTime();
-	}
+
 }
 
 function showTime()
